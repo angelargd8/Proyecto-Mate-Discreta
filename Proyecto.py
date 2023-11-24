@@ -62,7 +62,7 @@ def encriptacion():
 
             #----4. Pasar el mensaje a números----
             M = M.upper().replace(' ','')
-            print(M)
+            #print(M)
             palabraNumero = []
             for i in range(0, len(M), 2):
                 num1 = buscarValor(M[i])
