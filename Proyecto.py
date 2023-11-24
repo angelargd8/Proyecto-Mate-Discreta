@@ -55,13 +55,12 @@ la llave privada 𝑑 y desencriptar el mensaje
 
 def desencriptacion():
     #pedir datos
-    C = str(input("Ingrese el valor de C (mensaje encriptado) sin espacios en bloques de 4: "))
+    C = str(input("Ingrese el valor de C (mensaje encriptado) SIN ESPACIOS en bloques de 4: "))
     n = int(input("Ingrese el valor de n: "))
     e = int(input("Ingrese el valor de e: "))
 
     if( n>0 and e>0 ):
         #---1. encontrar la llave privada----
-
         #calcular los valores de p y q (factorizar n)
         lista_primos= factorizar(n)
         p = lista_primos[0]
